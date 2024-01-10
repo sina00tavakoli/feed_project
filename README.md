@@ -6,3 +6,9 @@ The objective of this project is to create a centralized platform for aggregatin
 ## Features
 Our site allows you to:
 - View headlines, their corresponding news sources, and brief summaries
+- Add articles to your favorites
+- Filter news by category
+- Search for specific articles
+- Save articles for later reading
+- Create and manage custom lists of articles
+- Delete lists of articles when no longer needed
