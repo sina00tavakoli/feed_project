@@ -19,3 +19,9 @@ Using our site is simple and intuitive:
 3. Filtering and Searching: Easily filter news by category or use the search function to find specific articles.
 4. Saving for Later: Save articles for later reading, coming back to them when you have more time.
 5. Organizing: Create and maintain themed lists of articles that fit specific topics or interests.
+
+We are dedicated to providing you with a seamless and enjoyable news-reading experience.
+
+If you have any questions or need assistance with any aspect of our site, feel free to reach out. We're here to help!
+
+Happy reading!
