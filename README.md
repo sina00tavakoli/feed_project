@@ -14,3 +14,8 @@ Our site allows you to:
 - Delete lists of articles when no longer needed
 ## Usage
 Using our site is simple and intuitive:
+1. Viewing News: Browse through the headlines, click on an article to see a brief summary, and decide whether to read further.
+2. Personalization: Add articles to your favorites and create custom lists to keep track of articles you find interesting.
+3. Filtering and Searching: Easily filter news by category or use the search function to find specific articles.
+4. Saving for Later: Save articles for later reading, coming back to them when you have more time.
+5. Organizing: Create and maintain themed lists of articles that fit specific topics or interests.
