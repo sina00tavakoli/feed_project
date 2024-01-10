@@ -12,3 +12,5 @@ Our site allows you to:
 - Save articles for later reading
 - Create and manage custom lists of articles
 - Delete lists of articles when no longer needed
+## Usage
+Using our site is simple and intuitive:
