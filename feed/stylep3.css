@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    background-color: var(--background, #030303);
+    display: flex;
+    align-items: center;
+
+}
+#preloader {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(27, 25, 28);
+    text-align: center;
+    z-index: 1000;
+}
+#preloader img {
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
+    justify-content: center;
+}
+.saved-sites {
+    max-width: 100%;
+    max-height: 100%;
+    left: 680px;
+    position: relative;
+    width: 329px;
+    height: 480px;
+    background-color: #161417;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(221, 0, 188, 0.861);
+    box-sizing: border-box;
+}
+
+.saved-sites .group {
+    position: absolute;
+    width: 172px;
+    height: 28px;
+    top: 5px;
+    left: 79px;
+}
+
+.saved-sites .text-wrapper {
+    position: absolute;
+    width: 136px;
+    top: 2px;
+    left: 34px;
+    background: linear-gradient(180deg,
+    rgb(100.94, 60.56, 161.5) 0%,
+    rgb(193.21, 177.02, 217.5) 68.75%,
+    rgb(255, 255, 255) 100%,
+    rgb(174.76, 153.73, 206.3) 100%);
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: "MuseoModerno-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.saved-sites .img {
+    position: absolute;
+    width: 31px;
+    height: 25px;
+    top: 0;
+    left: 0;
+}
+
+.saved-sites .plus {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -8649px;
+    left: 1985px;
+}
+
+.saved-sites .add-to-archive {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 46px;
+    left: 18px;
+}
+
+.saved-sites .RTL-text {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 46px;
+    left: 78px;
+}
+
+.saved-sites .rectangle {
+    position: absolute;
+    width: 436px;
+    height: 1px;
+    top: 38px;
+    left: 0;
+    background-color: #343434;
+}
+
+.saved-sites .overlap {
+    position: absolute;
+    width: 436px;
+    height: 54px;
+    top: 75px;
+    left: 0;
+}
+
+.saved-sites .overlap-group {
+    position: absolute;
+    width: 436px;
+    height: 54px;
+    top: 0;
+    left: 0;
+}
+
+
+.saved-sites .div {
+    position: absolute;
+    width: 436px;
+    height: 1px;
+    top: 3px;
+    left: 0;
+    background-color: #343434;
+}
+
+.saved-sites .text-wrapper-2 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    font-family: "MuseoModerno-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 53.5px;
+    white-space: nowrap;
+    direction: rtl;
+
+}
+.rss1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: #db14db71;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(18, 17, 18, 0.866);
+    box-shadow:0 0 10px rgba(221, 0, 188, 0.861);
+    border-radius: 15px;
+    text-decoration: none;
+
+}
+.saved-sites .overlap-2 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 13px;
+    left: 281px;
+    background-color: #62506d;
+    border-radius: 6px;
+}
+
+.saved-sites .group-2 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    background-color: #62506d;
+    border-radius: 6px;
+}
+
+.saved-sites .overlap-group-2 {
+    position: absolute;
+    width: 436px;
+    height: 353px;
+    top: 132px;
+    left: -107px;
+}
+
+.saved-sites .group-3 {
+    position: absolute;
+    width: 112px;
+    height: 54px;
+    top: 0;
+    left: 308px;
+}
+
+.saved-sites .rectangle-2 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 12px;
+    left: 80px;
+    background-color: #62506d;
+    border-radius: 6px;
+}
+
+.saved-sites .text-wrapper-3 {
+    position: absolute;
+    top: 0;
+    left: -180px;
+    font-family: "MuseoModerno-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 53.5px;
+    white-space: nowrap;
+    direction: rtl;
+}
+
+.saved-sites .group-4 {
+    position: absolute;
+    width: 112px;
+    height: 54px;
+    top: 51px;
+    left: 308px;
+}
+
+.saved-sites .group-5 {
+    position: absolute;
+    width: 112px;
+    height: 54px;
+    top: 102px;
+    left: 308px;
+}
+
+.saved-sites .group-6 {
+    position: absolute;
+    width: 112px;
+    height: 54px;
+    top: 151px;
+    left: 308px;
+}
+
+.saved-sites .group-7 {
+    position: absolute;
+    width: 112px;
+    height: 54px;
+    top: 201px;
+    left: 308px;
+}
+
+.saved-sites .group-8 {
+    position: absolute;
+    width: 112px;
+    height: 54px;
+    top: 249px;
+    left: 308px;
+}
+
+.saved-sites .group-9 {
+    position: absolute;
+    width: 112px;
+    height: 54px;
+    top: 299px;
+    left: 308px;
+}
+
+.saved-sites .rectangle-3 {
+    position: absolute;
+    width: 436px;
+    height: 1px;
+    top: 53px;
+    left: 0;
+    background-color: #343434;
+}
+
+.saved-sites .rectangle-4 {
+    position: absolute;
+    width: 436px;
+    height: 1px;
+    top: 103px;
+    left: 0;
+    background-color: #343434;
+}
+
+.saved-sites .rectangle-5 {
+    position: absolute;
+    width: 436px;
+    height: 1px;
+    top: 153px;
+    left: 0;
+    background-color: #343434;
+}
+
+.saved-sites .rectangle-6 {
+    position: absolute;
+    width: 436px;
+    height: 1px;
+    top: 203px;
+    left: 0;
+    background-color: #343434;
+}
+
+.saved-sites .rectangle-7 {
+    position: absolute;
+    width: 436px;
+    height: 1px;
+    top: 253px;
+    left: 0;
+    background-color: #343434;
+}
+
+.saved-sites .rectangle-8 {
+    position: absolute;
+    width: 436px;
+    height: 1px;
+    top: 303px;
+    left: 0;
+    background-color: #343434;
+}
+
+.saved-sites .file {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 46px;
+    left: 46px;
+}
+
+.saved-sites .rectangle-9 {
+    position: absolute;
+    width: 436px;
+    height: 1px;
+    top: 485px;
+    left: -107px;
+    background-color: #343434;
+}
+
+.saved-sites .plus-2 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 46px;
+    left: 291px;
+}
+
+.saved-sites .search {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 46px;
+    left: 108px;
+}
+
+.pics1 {
+
+    top: 150px;
+}
+.file-2 {
+    border-radius: 18px;
+}
