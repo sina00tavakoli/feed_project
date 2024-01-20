@@ -32,7 +32,7 @@ email : Fatimaarab29@gmail.com
 | name | role | id |
 | -------- | -------- | -------- |
 | Fatemeh Arababadi |Product Owner| Row 1, Col 3 |
-| Fatemeh Ebrahimi |Development team| Row 2, Col 3 |
+| Fatemeh Ebrahimi |Development team| fatemehebrahimi8 |
 | Mahdieh Talebi | Development team| Row 3, Col 3 |
 | Zahra Shokrollahi | Scrum master | Row 4, Col 3 |
 | Elahe Shafiei | Development team | Row 5, Col 3 |
