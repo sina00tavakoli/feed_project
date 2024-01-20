@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>جستجو</title>
+  </head>
+  <body>
+    <main>
+      <!-- header -->
+      <header>
+        <!-- logo -->
+        <div class="main_logo">
+          <img src="../assets/Images/logo.png" alt="main logo" />
+        </div>
+        <!-- navigation -->
+        <nav class="main_header_nav">
+          <ul>
+            <li>
+              <a href="../bookmarks/index.html">
+                <img src="../assets/Logos/bookmark.svg" alt="saved feeds page"
+              /></a>
+            </li>
+            <li>
+              <img
+                src="../assets/Logos/folder-active.svg"
+                alt="feeds folder page"
+              />
+            </li>
+            <li>
+              <a href="../feeds/index.html"
+                ><img src="../assets/Logos/menu.svg" alt="feeds page"
+              /></a>
+            </li>
+            <li>
+              <a href="../search/index.html">
+                <img src="../assets/Logos/search.svg" alt="search feeds page"
+              /></a>
+            </li>
+            <li>
+              <a href="../new-feed/index.html"
+                ><img src="../assets/Logos/plus.svg" alt="add feeds page"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!-- content -->
+      <div id="container">
+        <div id="folders">
+          <ul id="folders_list"></ul>
+          <div>
+            <button id="add_folder_btn">
+              <span><img src="../assets/Logos/plus-active.svg" alt="" /></span>
+              <span>اضافه کردن</span>
+            </button>
+          </div>
+        </div>
+        <div class="add_folder_form_container">
+          <form id="add_folder_form">
+            <div class="form_info">
+              <h3>ایجاد پوشه جدید</h3>
+              <p>فید های محبوب خود را دسته بندی کنید</p>
+            </div>
+            <div class="input_container">
+              <label for="form_input">عنوان</label>
+              <input type="text" id="form_input" />
+              <p id="message"></p>
+            </div>
+            <div class="form_btns">
+              <button type="submit" id="submit">ذخیره</button>
+              <button type="button" role="button" id="cancel">انصراف</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
