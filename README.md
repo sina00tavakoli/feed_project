@@ -1,14 +1,3 @@
-| name | role | id |
-| -------- | -------- | -------- |
-| Fatemeh Arababadi | Row 1, Col 2 | Row 1, Col 3 |
-| Fatemeh Ebrahimi | Row 2, Col 2 | Row 2, Col 3 |
-| Mahdieh Talebi | Row 3, Col 2 | Row 3, Col 3 |
-| Zahra Shokrollahi | Row 4, Col 2 | Row 4, Col 3 |
-| Elahe Shafiei | Row 5, Col 2 | Row 5, Col 3 |
-| Mahdi Mohebbi | Row 6, Col 2 | Row 6, Col 3 |
-| Sina Tavakoli | Row 7, Col 2 | Row 7, Col 3 |
-| Row 8, Col 1 | Row 8, Col 2 | Row 8, Col 3 |
-
 
 # Hello !
 
@@ -35,3 +24,15 @@ Please make sure to update discussion as appropriate.
 >we are 8 bachlore student of valiasr university of rafsanjan and the first goal of feedreader was for a class project but now we think Great goals are comming .
 our PO (product owner) is mrs Fatime Arababadi.
 email : Fatimaarab29@gmail.com
+
+
+| name | role | id |
+| -------- | -------- | -------- |
+| Fatemeh Arababadi | | Row 1, Col 3 |
+| Fatemeh Ebrahimi | Row 2, Col 2 | Row 2, Col 3 |
+| Mahdieh Talebi | Row 3, Col 2 | Row 3, Col 3 |
+| Zahra Shokrollahi | Row 4, Col 2 | Row 4, Col 3 |
+| Elahe Shafiei | Row 5, Col 2 | Row 5, Col 3 |
+| Mahdi Mohebbi | Row 6, Col 2 | Row 6, Col 3 |
+| Sina Tavakoli | Row 7, Col 2 | Row 7, Col 3 |
+| Mohammad Ghavampour | Row 8, Col 2 | Row 8, Col 3 |
