@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("chrome-extension://eofgmmhdimknfoildoejcecaljhhejal/Vazirmatn-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("chrome-extension://eofgmmhdimknfoildoejcecaljhhejal/Vazirmatn-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* @font-face {
+    font-family: "Vazirmatn";
+    src: url("chrome-extension://eofgmmhdimknfoildoejcecaljhhejal/Vazirmatn-Regular.ttf")
+      format("truetype");
+      
+      font-weight: normal;
+      font-style: normal;
+    } */
+/* src: url("chrome-extension://eofgmmhdimknfoildoejcecaljhhejal/Vazirmatn-VariableFont_wght.ttf"); */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h3 {
+  all: unset;
+}
+
+body {
+  direction: rtl;
+  width: 100%;
+  min-height: 100vh;
+  padding-right: 300px;
+  padding-left: 50px;
+  padding-block: 20px 60px;
+  font-family: "Vazirmatn";
+}
+
+aside {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-block: 20px;
+  padding-inline: 20px;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 270px;
+  background-color: #2a282c8c;
+  font-family: "Vazirmatn";
+}
+
+aside h1 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+aside p {
+  color: white;
+  margin-top: 6px;
+}
+
+#items-container {
+  display: block;
+  padding-bottom: 40px;
+  padding-inline: 50px;
+  min-height: 100%;
+  width: 100%;
+}
+
+#items-container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-bottom: 10px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a {
+  cursor: pointer;
+}
+
+p {
+  font-size: 14px;
+}
+
+.img-container {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.img-container img {
+  display: block;
+  width: 20px !important;
+  height: 20px !important;
+}

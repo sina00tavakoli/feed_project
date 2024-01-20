@@ -1,0 +1,85 @@
+body {
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    background-color: var(--background, #030303);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.search-list {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    background-color: #161417;
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* تنظیمات ریسپانسیو برای اندازه‌های مختلف صفحه */
+@media (min-width: 576px) {
+    .search-list {
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) {
+    .search-list {
+        width: 70%;
+    }
+}
+
+@media (min-width: 992px) {
+    .search-list {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .search-list {
+        width: 50%;
+    }
+}
+
+/* تنظیمات ریسپانسیو برای تصاویر */
+.search-list .overlap,
+.search-list .overlap-2,
+.search-list .overlap-3 {
+    width: 100%;
+    height: auto;
+}
+
+/* تنظیمات ریسپانسیو برای اندازه‌های مختلف صفحه */
+.imagess,
+.imagess1,
+.imagess2,
+.imagess3 {
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-radius: 18px;
+}
+
+/* تنظیمات ریسپانسیو برای اندازه‌های مختلف صفحه */
+@media (min-width: 768px) {
+    .imagess {
+        transform: translate(170px, 130px);
+    }
+
+    .imagess1 {
+        transform: translate(170px, 285px);
+    }
+
+    .imagess2 {
+        transform: translate(40px, 130px);
+    }
+
+    .imagess3 {
+        transform: translate(40px, 285px);
+    }
+}
