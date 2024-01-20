@@ -24,14 +24,14 @@ Please make sure to update discussion as appropriate.
 >we are 8 bachlore student of valiasr university of rafsanjan and the first goal of feedreader was for a class project but now we think Great goals are comming .
 our PO (product owner) is mrs Fatime Arababadi.
 email : Fatimaarab29@gmail.com
+our UI Designer is mrs Zahra Shokrollahi.
+email:
 
-
-
-
-
+<br>
+<br>
 | name | role | id |
 | -------- | -------- | -------- |
-| Fatemeh Arababadi |Product Owner| Row 1, Col 3 |
+| Fatemeh Arababadi |Product Owner| Fatimaar |
 | Fatemeh Ebrahimi |Development team| fatemehebrahimi8 |
 | Mahdieh Talebi | Development team| Row 3, Col 3 |
 | Zahra Shokrollahi | Scrum master | Row 4, Col 3 |
