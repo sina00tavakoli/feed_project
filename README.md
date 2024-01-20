@@ -26,12 +26,15 @@ our PO (product owner) is mrs Fatime Arababadi.
 email : Fatimaarab29@gmail.com
 
 
+
+
+
 | name | role | id |
 | -------- | -------- | -------- |
 | Fatemeh Arababadi |Product Owner| Row 1, Col 3 |
 | Fatemeh Ebrahimi |Development team| Row 2, Col 3 |
 | Mahdieh Talebi | Development team| Row 3, Col 3 |
-| Zahra Shokrollahi | Row 4, Col 2 | Row 4, Col 3 |
+| Zahra Shokrollahi | Scrum master | Row 4, Col 3 |
 | Elahe Shafiei | Development team | Row 5, Col 3 |
 | Mahdi Mohebbi | Development team| Row 6, Col 3 |
 | Sina Tavakoli | Development team| Row 7, Col 3 |
